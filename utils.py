@@ -8,7 +8,6 @@ def parse_arguments(context):
     except ValueError:
         return None, None, "Пожалуйста, введите корректные числа."
 
-
 def perform_operation(a, b, operation):
     try:
         return operation(a, b)
